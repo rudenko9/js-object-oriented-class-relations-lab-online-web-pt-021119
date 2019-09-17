@@ -7,6 +7,9 @@ class Driver {
     this.name = name
     store.drivers.push(this)
   }
+  trip() {
+    return store.trip.find(trip => trip.id === this.tripId);
+  }
 }
 
 let passengerId = 1
