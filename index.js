@@ -10,3 +10,9 @@ class Driver {
     store.drivers.push(this)
   }
 }
+
+class Passanger{
+  constructor(name){
+    
+  }
+}
