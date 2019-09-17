@@ -18,7 +18,7 @@ class Passenger{
     this.id = ++passengerId
     this.name = name 
     
-    store.passengers.puth(this)
+    store.passengers.push(this)
     
   }
 }
