@@ -8,7 +8,7 @@ class Driver {
     store.drivers.push(this)
   }
   trips() {
-    return store.trips.find(trip => trip.id === this.tripId);
+    return store.trips.filter(trip => trip.id === this.tripId);
   }
 }
 
