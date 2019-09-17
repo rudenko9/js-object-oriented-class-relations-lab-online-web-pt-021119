@@ -23,5 +23,8 @@ class Passenger{
 }
 
 class Trip {
+  constructor(driver,passenger)
+  this.driver = driver
+}
   
 }
