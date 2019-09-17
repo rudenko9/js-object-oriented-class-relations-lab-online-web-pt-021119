@@ -1,4 +1,4 @@
-let store = {drivers: [], passengers: [] }
+let store = {drivers: [], passengers: [], trips: [] }
 let driverId = 0 
 
 class Driver {
@@ -27,6 +27,7 @@ class Trip {
   this.driverId = driverId;
   this.passengerId = passengerId;
   
+  store.
 }
   
 }
