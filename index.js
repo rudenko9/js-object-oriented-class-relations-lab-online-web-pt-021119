@@ -7,7 +7,7 @@ class Driver {
     this.name = name
     store.drivers.push(this)
   }
-  trip() {
+  trips() {
     return store.trip.find(trip => trip.id === this.tripId);
   }
 }
