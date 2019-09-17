@@ -28,6 +28,20 @@ class Passenger{
     this.name = name 
     store.passengers.push(this)
   }
+  
+  trips() {
+    return store.trips.filter(trip => trip.passengerId === this.id);
+  }
+
+  drivers() {
+    let drivers = [];
+    this.trips().forEach(function(trip) {
+      drivers.push(trip.driver());
+    });
+    return drivers;
+  }
+  
+  
 }
 
 let tripId = 1
