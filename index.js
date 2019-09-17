@@ -23,7 +23,7 @@ class Passenger{
 }
 
 class Trip {
-  constructor(driver,passenger)
+  constructor(driver,passenger){
   this.driver = driver;
   this.passenger = passenger;
   
