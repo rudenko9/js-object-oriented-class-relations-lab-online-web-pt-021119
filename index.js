@@ -19,6 +19,6 @@ class Passenger{
     this.name = name 
     
     store.passengers.push(this)
-    
   }
 }
+
